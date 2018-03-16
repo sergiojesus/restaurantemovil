@@ -12,6 +12,7 @@
         android:layout_height="match_parent"
         android:gravity="center">
         <TextView
+            android:id="@+id/txtuno"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Ane bebe <3 jijiji"
@@ -19,7 +20,13 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-        
+        <TextView
+            android:id="@+id/txtdos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ESTE ES MI CAMBIO JAGT"
+            android:layout_below="@+id/txtuno"
+            />
     </RelativeLayout>
 
 
