@@ -9,6 +9,11 @@
             android:icon="@drawable/ic_menu"
             android:title="Inicio" />
         <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_account"
+            android:title="Iniciar Sesion"
+            />
+        <item
             android:id="@+id/nav_registrar"
             android:icon="@drawable/ic_registrar"
             android:title="Registrar" />

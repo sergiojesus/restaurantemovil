@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/titulo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enchiladas"
+            android:textSize="30dp"
+            android:layout_marginHorizontal="20dp"/>
+        <TextView
+            android:id="@+id/precio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enchiprecio"
+            android:textSize="25dp"
+            android:textColor="#F49546"
+            android:layout_marginHorizontal="280dp"
+            />
+        <TextView
+            android:id="@+id/descri1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:text="@string/enchiexplicacion"
+            android:layout_below="@id/titulo1"/>
+
+        <ImageView
+            android:id="@+id/imagen1"
+            android:layout_width="320dp"
+            android:layout_height="205dp"
+            android:layout_below="@id/descri1"
+            android:src="@drawable/enchiladas"
+            android:layout_marginHorizontal="35dp"
+            />
+
+        <TextView
+            android:id="@+id/separador1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="___________________________________________________"
+            android:layout_below="@id/imagen1"/>
+
+
+
+        <TextView
+            android:id="@+id/titulo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ChileEnNogada"
+            android:textSize="30dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_below="@id/separador1"/>
+        <TextView
+            android:id="@+id/precio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chileprecio"
+            android:textSize="25dp"
+            android:textColor="#F49546"
+            android:layout_marginHorizontal="280dp"
+            android:layout_below="@id/separador1"
+            />
+        <TextView
+            android:id="@+id/descri2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:text="@string/chileexplicacion"
+            android:layout_below="@id/titulo2"/>
+
+        <ImageView
+            android:id="@+id/imagen2"
+            android:layout_width="320dp"
+            android:layout_height="205dp"
+            android:layout_below="@id/descri2"
+            android:src="@drawable/chilenogada"
+            android:layout_marginHorizontal="35dp"
+            />
+        <TextView
+            android:id="@+id/separador2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="___________________________________________________"
+            android:layout_below="@id/imagen2"/>
+
+
+
+        <TextView
+            android:id="@+id/titulo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/HuevosRancheros"
+            android:textSize="30dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_below="@id/separador2"/>
+        <TextView
+            android:id="@+id/precio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/huevosprecio"
+            android:textSize="25dp"
+            android:textColor="#F49546"
+            android:layout_marginHorizontal="280dp"
+            android:layout_below="@id/separador2"
+            />
+        <TextView
+            android:id="@+id/descri3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:text="@string/Huevosexplicacion"
+            android:layout_below="@id/titulo3"/>
+
+        <ImageView
+            android:id="@+id/imagen3"
+            android:layout_width="320dp"
+            android:layout_height="205dp"
+            android:layout_below="@id/descri3"
+            android:src="@drawable/huevos"
+            android:layout_marginHorizontal="35dp"
+            />
+        <TextView
+            android:id="@+id/separador3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="___________________________________________________"
+            android:layout_below="@id/imagen3"/>
+
+
+
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+</android.support.v7.widget.LinearLayoutCompat>

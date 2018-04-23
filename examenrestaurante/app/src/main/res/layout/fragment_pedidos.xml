@@ -6,7 +6,7 @@
     tools:context=".PedidosFragment"
     android:orientation="vertical"
     android:layout_gravity="center"
-android:background="@drawable/restaurant"
+android:background="@drawable/reservar"
     >
     <LinearLayout
         android:layout_margin="16dp"
@@ -19,7 +19,7 @@ android:background="@drawable/restaurant"
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pedidos"
+            android:text="@string/pedidos"
             android:textColor="@color/colorBlanco"
             android:textSize="35dp"
             android:textStyle="bold"
@@ -32,7 +32,7 @@ android:background="@drawable/restaurant"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/colorBlanco"
-            android:text="Te llevamos la comida hasta tu casa"
+            android:text="@string/textopedidos"
             android:layout_gravity="center"
             android:textSize="20dp"
             android:textStyle="bold"/>

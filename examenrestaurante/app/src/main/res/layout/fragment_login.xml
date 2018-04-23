@@ -6,22 +6,22 @@
     tools:context=".LoginFragment"
     android:orientation="vertical"
     android:layout_gravity="center"
-    android:background="@color/colorVerde"
+    android:label="@string/tituloLogin"
+    android:background="@color/colorPrimaryDark"
     >
     <LinearLayout
         android:layout_margin="16dp"
-        android:background="@color/colorVerde"
+        android:background="@color/colorPrimaryDark"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
 
         <TextView
 
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Iniciar Sesión"
+            android:text="@string/tituloLogin"
             android:textColor="@color/colorBlanco"
             android:textSize="35dp"
             android:textStyle="bold"
@@ -33,7 +33,7 @@
             android:layout_marginTop="100dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="correo"
+            android:text="@string/correo"
             android:textColor="@color/colorBlanco"
             android:textSize="20dp"
             android:textStyle="bold"
@@ -43,16 +43,16 @@
             android:id="@+id/editTextcorreo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:inputType="textEmailAddress"
             android:textColor="@color/colorBlanco"
-            android:textSize="20dp" />
+            android:textSize="20dp"/>
 
         <TextView
             android:id="@+id/textviewPass"
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Contraseña"
+            android:text="@string/contrasena"
             android:textColor="@color/colorBlanco"
             android:textSize="20dp"
             android:textStyle="bold" />
@@ -62,7 +62,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colorBlanco"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:inputType="textPassword"/>
 
         <Button
             android:layout_marginTop="50dp"
@@ -75,7 +76,7 @@
 
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Iniciar Sesión"
+            android:text="@string/tituloLogin"
             android:background="@color/colorBlanco"
             android:layout_centerHorizontal="true"
             android:textSize="20dp" />

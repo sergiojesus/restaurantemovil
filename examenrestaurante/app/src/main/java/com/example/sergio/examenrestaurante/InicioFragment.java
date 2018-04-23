@@ -61,7 +61,7 @@ public class InicioFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View  view = inflater.inflate(R.layout.fragment_inicio, container, false);
+        View  view = inflater.inflate(R.layout.menuimagenes, container, false);
 
         return view;
     }

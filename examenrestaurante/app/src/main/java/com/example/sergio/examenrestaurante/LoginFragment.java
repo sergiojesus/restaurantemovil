@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -75,6 +76,7 @@ public class LoginFragment extends Fragment implements View.OnClickListener  {
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
+            int a= 0;
         }
     }
 
@@ -82,14 +84,14 @@ public class LoginFragment extends Fragment implements View.OnClickListener  {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View  view = inflater.inflate(R.layout.fragment_registrar, container, false);
+        View  view = inflater.inflate(R.layout.fragment_login, container, false);
 
 
         firebaseAuth= FirebaseAuth.getInstance();
 
-        if(firebaseAuth.getCurrentUser() != null){
-            startActivity(new Intent(getContext(),InicioFragment.class) );
-        }
+        /*if(firebaseAuth.getCurrentUser() != null){
+            startActivity(new Intent(getContext(), MainActivity.class));
+        }*/
         editTextcorreo = (EditText)  view.findViewById(R.id.editTextcorreo);
         editTextcontrasena = (EditText)  view.findViewById(R.id.editTextcontrasena);
         btnlogin = (Button)  view.findViewById(R.id.btnlogin);
@@ -120,7 +122,7 @@ public class LoginFragment extends Fragment implements View.OnClickListener  {
             return;
         }
 
-        progressDialog.setMessage("registrar usuario");
+        progressDialog.setMessage("Iniciando Sesion");
         progressDialog.show();
 
         firebaseAuth.signInWithEmailAndPassword(correo, contrasena)
@@ -131,8 +133,10 @@ public class LoginFragment extends Fragment implements View.OnClickListener  {
                         if(task.isSuccessful()){
                            // finish();
                             //startActivity(new Intent(getApplicationContext(),InicioFragment.class));
-                            startActivity(new Intent(getContext(),InicioFragment.class) );
+                            progressDialog.setMessage("Sesion Iniciada");
+                            progressDialog.show();
 
+                            startActivity(new Intent(getContext(),MainActivity.class) );
                         }
                     }
                 });

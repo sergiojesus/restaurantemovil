@@ -6,9 +6,89 @@
     tools:context=".ReservarFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:gravity="center"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nombre"
+                android:id="@+id/textView2" />
+
+            <EditText
+                android:id="@+id/editNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView2"
+                android:layout_alignBottom="@+id/textView2"
+
+                android:layout_marginLeft="120dp"
+                android:hint="@string/nombre" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fecha"
+            android:id="@+id/txt1"
+            />
+        <EditText
+            android:id="@+id/editFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/fecha"
+            android:layout_alignBaseline="@+id/txt1"
+            android:layout_alignBottom="@+id/txt1"
+            android:layout_marginLeft="120dp"/>
+        </RelativeLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Horario:"
+    android:layout_marginTop="15dp"
+    />
+        <TimePicker
+            android:id="@+id/tiempo"
+            android:layout_width="wrap_content"
+            android:layout_height="105dp"
+            android:timePickerMode="spinner"
+            ></TimePicker>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiempo:"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/hora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 Hora"
+            />
+        <RadioButton
+            android:id="@+id/mediahora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30 minutos"/>
+    </RadioGroup>
+        <Button
+            android:id="@+id/BtnReservar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reservar"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
 
 </FrameLayout>

@@ -1,11 +1,39 @@
 <resources>
-    <string name="app_name">examenrestaurante</string>
+    <string name="app_name">Restaurante</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="tituloLogin">Iniciar Sesión</string>
+    <string name="correo">Correo Electronico</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="usuario">Usario</string>
+    <string name="textopedidos">Te llevamos la comida hasta tu casa</string>
+    <string name="inicio">Inicio</string>
+    <string name="registrar">Registrar</string>
+    <string name="reservacion">Reservacion</string>
+    <string name="pedidos">Pedidos</string>
+    <string name="ubicacion">Ubicacion</string>
+    <string name="micuenta">Mi Cuenta</string>
+    <string name="micu">Para hacer algun pedido o reservacion, primero tienes que registrarte.</string>
+    <string name="nombre">Nombre</string>
+    <string name="fecha">Fecha</string>
+    <string name="horario">Horario</string>
+    <string name="Tiempo1">1 hora</string>
+    <string name="Tiempo2">30 min</string>
+    <string name="enchiladas">Enchiladas</string>
+    <string name="enchiexplicacion">2 piezas de enchiladas rellenas con pollo, tomate y chorizo, cubiertos con salsa de ciruela y servidas con queso</string>
+    <string name="enchiprecio">$45.00 </string>
+    <string name="ChileEnNogada">Chile en nogada</string>
+    <string name="chileexplicacion">1 pieza de Chile Poblano relleno de guisado de picadillo y frutas, incluye acitron y esta cubierta con crema de nuez, perejil y granola</string>
+    <string name="chileprecio">$50.00</string>
+
+    <string name="HuevosRancheros">Huevos Rancheros</string>
+    <string name="Huevosexplicacion">3 piezas de huevos estrellados sobre una tortilla ligeramente frita y untados con salsa roja y acompañaos de frijoles refritos</string>
+    <string name="huevosprecio">$40.00</string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

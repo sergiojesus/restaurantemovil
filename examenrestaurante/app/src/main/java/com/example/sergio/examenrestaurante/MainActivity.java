@@ -18,7 +18,9 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
 ImageView imgperfil;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,6 +40,9 @@ ImageView imgperfil;
 
 
         navigationView.setNavigationItemSelectedListener(this);
+
+
+
     }
 
     @Override
@@ -88,6 +93,8 @@ ImageView imgperfil;
             setFragment(4);
         } else if (id == R.id.nav_ubicacion) {
             setFragment(5);
+        } else if (id == R.id.nav_login) {
+            setFragment(6);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -137,6 +144,13 @@ ImageView imgperfil;
                 fragmentTransaction = fragmentManager.beginTransaction();
                 UbicacionFragment ubicacionFragment = new UbicacionFragment();
                 fragmentTransaction.replace(R.id.main_content,ubicacionFragment);
+                fragmentTransaction.commit();
+                break;
+            case 6:
+                fragmentManager = getSupportFragmentManager();
+                fragmentTransaction = fragmentManager.beginTransaction();
+                LoginFragment loginFragment= new LoginFragment();
+                fragmentTransaction.replace(R.id.main_content,loginFragment);
                 fragmentTransaction.commit();
                 break;
 
