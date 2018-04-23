@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "154860645880",
+    "firebase_url": "https://restaurante-9d5d2.firebaseio.com",
+    "project_id": "restaurante-9d5d2",
+    "storage_bucket": "restaurante-9d5d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154860645880:android:66d00ff1f0078eef",
+        "android_client_info": {
+          "package_name": "com.example.sergio.examenrestaurante"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154860645880-rm6kd6q0fpnacbq4le11u1der8qt5718.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAQmBDWCydN-TPB-DDozZ3uLlVN5e1Xd0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

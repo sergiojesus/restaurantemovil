@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PedidosFragment"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+android:background="@drawable/restaurant"
+    >
+    <LinearLayout
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pedidos"
+            android:textColor="@color/colorBlanco"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:layout_gravity="center" />
+
+
+        <TextView
+
+            android:layout_marginTop="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlanco"
+            android:text="Te llevamos la comida hasta tu casa"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_marginTop="100dp"
+            android:id="@+id/btnlogin"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:padding="5dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Llamar"
+            android:background="@color/colorBlanco"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
