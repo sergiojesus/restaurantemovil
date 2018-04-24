@@ -31,36 +31,26 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_login);
-    }
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        View  view = inflater.inflate(R.layout.fragment_login, container, false);
-
-
         firebaseAuth= FirebaseAuth.getInstance();
 
-        if(firebaseAuth.getCurrentUser() != null){
-            Intent i = new Intent(LoginActivity.this, InicioFragment.class );
-            startActivity(new Intent(LoginActivity.this,InicioFragment.class) );
-        }
-        editTextcorreo = (EditText)  view.findViewById(R.id.editTextcorreo);
-        editTextcontrasena = (EditText)  view.findViewById(R.id.editTextcontrasena);
-        btnlogin = (Button)  view.findViewById(R.id.btnlogin);
+       /* if(firebaseAuth.getCurrentUser() != null){
+            Intent i = new Intent(LoginActivity.this, MainActivity.class);
+            startActivity(new Intent(LoginActivity.this,MainActivity.class) );
+        }*/
+        editTextcorreo = (EditText)  findViewById(R.id.editTextcorreo);
+        editTextcontrasena = (EditText)  findViewById(R.id.editTextcontrasena);
+        btnlogin = (Button) findViewById(R.id.btnlogin);
 
         progressDialog = new ProgressDialog(LoginActivity.this);
         btnlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(LoginActivity.this, InicioFragment.class);
-                startActivity(i);
+                userLogin();
             }
         });
-        return view;
-
     }
     private  void userLogin() {
-        String correo = editTextcorreo.getText().toString().trim();
+        final String correo = editTextcorreo.getText().toString().trim();
         String contrasena = editTextcontrasena.getText().toString().trim();
 
         if (TextUtils.isEmpty(correo)) {
@@ -77,7 +67,7 @@ public class LoginActivity extends AppCompatActivity {
             return;
         }
 
-        progressDialog.setMessage("registrar usuario");
+        progressDialog.setMessage("Iniciando sesión");
         progressDialog.show();
 
         firebaseAuth.signInWithEmailAndPassword(correo, contrasena)
@@ -88,7 +78,9 @@ public class LoginActivity extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             // finish();
                             //startActivity(new Intent(getApplicationContext(),InicioFragment.class));
-                            Intent i = new Intent(LoginActivity.this, InicioFragment.class);
+                            progressDialog.setMessage("Sesion iniciada con "+ correo);
+                            progressDialog.show();
+                            Intent i = new Intent(LoginActivity.this, MainActivity.class);
                             startActivity(i);
 
                         }
@@ -96,11 +88,6 @@ public class LoginActivity extends AppCompatActivity {
                 });
 
 
-    }
-    public void onClick(View view) {
-        if(view ==btnlogin){
-            userLogin();
-        }
     }
 
 }

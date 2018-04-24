@@ -38,8 +38,9 @@ android:background="@drawable/reservar"
             android:textStyle="bold"/>
 
         <Button
+
             android:layout_marginTop="100dp"
-            android:id="@+id/btnlogin"
+            android:id="@+id/btnllamar"
             android:layout_gravity="center"
             android:textAllCaps="false"
             android:padding="5dp"

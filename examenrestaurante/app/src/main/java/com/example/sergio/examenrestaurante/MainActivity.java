@@ -42,8 +42,6 @@ ImageView imgperfil;
         navigationView.setNavigationItemSelectedListener(this);
         FragmentManager fragmentManager;
         FragmentTransaction fragmentTransaction;
-
-
         fragmentManager = getSupportFragmentManager();
         fragmentTransaction = fragmentManager.beginTransaction();
         InicioFragment inicioFragment = new InicioFragment();
