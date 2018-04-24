@@ -25,4 +25,6 @@
 \contentsline {subsection}{\numberline {4.2.3}diagrama de actividades}{11}
 \contentsline {subsection}{\numberline {4.2.4}diagrama de secuencias}{12}
 \contentsline {section}{\numberline {4.3}programaci\IeC {\'o}n}{12}
-\contentsline {chapter}{\numberline {5}Resultados y conclusiones}{14}
+\contentsline {subsection}{\numberline {4.3.1}Codigo LoginFragment}{14}
+\contentsline {subsection}{\numberline {4.3.2}Codigo RegistrarFragment}{15}
+\contentsline {chapter}{\numberline {5}Resultados y conclusiones}{16}

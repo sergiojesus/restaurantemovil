@@ -91,7 +91,7 @@ public class ReservarFragment extends Fragment {
         progressDialog = new ProgressDialog(getContext());
         editnombre = (EditText) view.findViewById(R.id.editNombre);
         editFecha = (EditText) view.findViewById(R.id.editFecha);
-       // timePicker = (TimePicker) view.findViewById(R.id.tiempo);
+         timePicker = (TimePicker) view.findViewById(R.id.tiempo);
         radio1 = (RadioButton) view.findViewById(R.id.hora);
         radio2 = (RadioButton) view.findViewById(R.id.mediahora);
         btnreservar = (Button) view.findViewById(R.id.BtnReservar);

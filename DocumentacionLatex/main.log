@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.3.2)  23 APR 2018 04:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.3.2)  23 APR 2018 13:45
 entering extended mode
 **./main.tex
 (main.tex
@@ -104,11 +104,6 @@ File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty"
-LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 332.
-Package: cite 2015/02/27  v 5.5
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
@@ -614,8 +609,8 @@ e 11.
 ) [1
 
 
-{C:/Users/Sergio/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./imagenes
-/logo.png>] (main.toc
+{C:/Users/Jose Antonio/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./im
+agenes/logo.png>] (main.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 3.
@@ -678,12 +673,6 @@ Cap\'{\i }tulo 2.
 
  (secciones/marcoteorico/marcoteorico.tex
 Cap\'{\i }tulo 3.
-
-LaTeX Warning: Citation `referencia7' on page 6 undefined on input line 9.
-
-
-LaTeX Warning: Citation `referencia4' on page 6 undefined on input line 40.
-
 ) [6
 
 
@@ -750,13 +739,36 @@ Package pdftex.def Info: imagenes/programacion.png  used on input line 103. on
 input line 103.
 Package pdftex.def Info: Requested size: 443.2566pt x 423.98456pt on input line
  103.
- [12 <./imagenes/secuencias.png>]) [13 <./imagenes/programacion.png>]
+ [12 <./imagenes/secuencias.png>]
+<imagenes/programacion2.png, id=51, 479.54156pt x 338.01282pt>
+File: imagenes/programacion2.png Graphic file (type png)
+<use imagenes/programacion2.png>
+Package pdftex.def Info: imagenes/programacion2.png  used on input line 110. on
+ input line 110.
+Package pdftex.def Info: Requested size: 383.63377pt x 270.41061pt on input lin
+e 110.
+ [13 <./imagenes/programacion.png>]
+<imagenes/loginactivity.jpg, id=56, 829.59938pt x 505.89pt>
+File: imagenes/loginactivity.jpg Graphic file (type jpg)
+<use imagenes/loginactivity.jpg>
+Package pdftex.def Info: imagenes/loginactivity.jpg  used on input line 118. on
+ input line 118.
+Package pdftex.def Info: Requested size: 369.88582pt x 225.55647pt on input lin
+e 118.
+<imagenes/registrarfragment.jpg, id=57, 692.5875pt x 417.05812pt>
+File: imagenes/registrarfragment.jpg Graphic file (type jpg)
+<use imagenes/registrarfragment.jpg>
+Package pdftex.def Info: imagenes/registrarfragment.jpg  used on input line 126
+. on input line 126.
+Package pdftex.def Info: Requested size: 369.88582pt x 222.73888pt on input lin
+e 126.
+ [14 <./imagenes/programacion2.png> <./imagenes/loginactivity.jpg>]) [15 <./ima
+genes/registrarfragment.jpg>]
 \openout2 = `secciones/resultados/resultados.aux'.
 
-
-(secciones/resultados/resultados.tex
+ (secciones/resultados/resultados.tex
 Cap\'{\i }tulo 5.
-) [14
+) [16
 
 
 
@@ -792,7 +804,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 de An-droid Si-tio web:
  []
 
-) [15
+) [17
 
 
 
@@ -804,29 +816,23 @@ LaTeX Info: Redefining \% on input line 7.
 (secciones/justificacion/justificacion.aux)
 (secciones/marcoteorico/marcoteorico.aux)
 (secciones/metodologia/metodologia.aux) (secciones/resultados/resultados.aux)
-(referencias/referencias.aux))
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(referencias/referencias.aux)) ) 
 Here is how much of TeX's memory you used:
- 3499 strings out of 493312
- 51346 string characters out of 3138897
- 121291 words of memory out of 3000000
- 6905 multiletter control sequences out of 15000+200000
+ 3429 strings out of 493312
+ 51741 string characters out of 3138877
+ 120386 words of memory out of 3000000
+ 6834 multiletter control sequences out of 15000+200000
  44165 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,30p,591b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
-r10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb>
-Output written on main.pdf (15 pages, 1059523 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm
+/lm-rm.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/lm/lmr12.pfb>
+Output written on main.pdf (17 pages, 1322173 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
+ 85 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

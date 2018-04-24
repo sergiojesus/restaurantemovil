@@ -69,6 +69,8 @@ public class LoginFragment extends Fragment implements View.OnClickListener  {
     private EditText editTextcontrasena;
     private ProgressDialog progressDialog;
     private FirebaseAuth firebaseAuth;
+    public Integer integer;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -135,6 +137,12 @@ public class LoginFragment extends Fragment implements View.OnClickListener  {
                             //startActivity(new Intent(getApplicationContext(),InicioFragment.class));
                             progressDialog.setMessage("Sesion Iniciada");
                             progressDialog.show();
+                            int a =0;
+                            Intent i = new Intent();
+                             i.putExtra("Resultado" , Integer.toString(a));;
+
+
+
 
                             startActivity(new Intent(getContext(),MainActivity.class) );
                         }
